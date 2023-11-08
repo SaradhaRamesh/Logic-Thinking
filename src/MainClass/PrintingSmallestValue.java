@@ -1,4 +1,5 @@
 package MainClass;
+//import java.util.*;
 import java.util.Scanner;
 
 import ProblemSolving.FindingValue;
@@ -11,7 +12,8 @@ public class PrintingSmallestValue {
 		//obj.minMax(arr);
 		//int n=s.nextInt();
 		//System.out.println("The index of "+n+" : "+obj.findValue(arr,n));
-		obj.arrayPrimenumber(arr);
+		System.out.println("The prime numbers are : "+obj.primenumber(arr));
+		obj.primenumber(10);
 		
 }
 }
